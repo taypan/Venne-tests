@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://venne2/admin/" />
+<title>test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>contact/?do=element_panel-logout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>../admin/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=frmsignInForm-username</td>
+	<td>jirka</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=frmsignInForm-password</td>
+	<td>jirka</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=frmsignInForm-_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pages module</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=new item</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=frmform-title</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=frmform-url</td>
+	<td>testCase</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=frmform-text</td>
+	<td>testovaci text</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=frmform-_submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>../pages/testCase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>testovaci text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>../admin/core/default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pages module</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='content']/table/tbody/tr[2]/td[4]/ul/li[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>really?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setSpeedAndWait</td>
+	<td>100</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=div.flash.success</td>
+	<td>Page has been deleted</td>
+</tr>
+</tbody></table>
+</body>
+</html>
