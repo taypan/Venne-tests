@@ -12,6 +12,7 @@
 <tr><td><a href="registrace">Registrace</a></td></tr>
 <tr><td><a href="loginFail">LoginFail</a></td></tr>
 <tr><td><a href="loginSuccess">LoginSuccess</a></td></tr>
+<tr><td><a href="calendar">Calendar</a></td></tr>
 </tbody></table>
 </body>
 </html>
